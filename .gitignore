@@ -1,0 +1,8 @@
+.env
+outputVideos/
+outputAudios/
+subtitles.srt
+__pycache__/
+.venv/
+instance/
+app1.py 
