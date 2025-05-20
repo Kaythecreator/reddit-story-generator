@@ -5,4 +5,5 @@ subtitles.srt
 __pycache__/
 .venv/
 instance/
+minecraft-videos/
 app1.py 
