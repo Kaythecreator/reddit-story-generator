@@ -9,7 +9,7 @@ import ollama
 def AI_hook(title, story):
     print(f'Generating hook for {title}')
     try:
-        response = ollama.chat(model='gemma3:4b', messages=[
+        response = ollama.chat(model='gemma3:12b', messages=[
             {
                 'role': 'system',
                 'content': '''

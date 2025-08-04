@@ -39,7 +39,7 @@ def write_word_srt(word_level_timestamps, output_file="word.srt", skip_punctuati
 def AI_story(prompt):
     print('Generating story...')
     try:
-        response = ollama.chat(model='gemma3:4b', messages=[
+        response = ollama.chat(model='gemma3:12b', messages=[
             {
                 'role': 'system',
                 'content': '''
